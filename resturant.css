@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+    float: left;
+}
+
+li a {
+    font-size: 30px;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+li a:hover {
+    color: bisque;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+li {
+    list-style: none;
+    float: left;
+}
+
+ul {
+    list-style: none;
+    margin: -19px -16px;
+    padding: 0 2px;
+}
+
+li a {
+    font-size: 21px;
+    list-style: none;
+    padding: 12px;
+}
+
+li a:hover {
+    color: rgb(255, 228, 196);
+}
+
+.navbar {
+    font-family: 'ubuntu', sans-serif;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border-bottom: 2px solid black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+nav ul li {
+    overflow: hidden;
+    padding: 8px;
+}
+
+.brand img {
+    width: 91px;
+    padding: 10px 11px;
+}
+
+.brand {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(20%);
+}
+
+.video-container {
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#video-bg {
+    width: 100%;
+}
